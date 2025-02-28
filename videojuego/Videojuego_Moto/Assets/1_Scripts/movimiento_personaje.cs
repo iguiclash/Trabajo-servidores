@@ -4,9 +4,8 @@ using UnityEngine;
 public class movimiento_personaje: MonoBehaviour
 {
 
-    public float moveSpeed = 5f; // Velocidad de movimiento del personaje
     public float jumpForce = 10f; // Fuerza del salto
-
+    public bool isGrounded = false;
     private Rigidbody2D rb;
 
     void Start()
@@ -16,14 +15,28 @@ public class movimiento_personaje: MonoBehaviour
 
     void Update()
     {
-        // Movimiento horizontal
-        float moveInput = Input.GetAxisRaw("Horizontal");
-        rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
-
-        // Saltar
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
+        if (Input.GetKeyDown(KeyCode.Space)&& isGrounded)
+       {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+            Debug.Log("patat saltando :D");
         }
     }
+  
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            isGrounded = true; // Marcar como en el suelo al colisionar con el suelo.
+            Debug.Log("colision en suelo");
+        }
+    }
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        isGrounded = false;
+        Debug.Log("descolisiona con el suelo (dios que palabro he puesto)");
+    }
 }
+
+
+   

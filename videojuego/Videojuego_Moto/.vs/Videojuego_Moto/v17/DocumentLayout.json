@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\iguit\\OneDrive\\Documents\\cosas de aprendizaje\\cosas  uni\\servidores\\Videojuego_servidores\\videojuego\\Videojuego_Moto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\iguit\\OneDrive\\Documents\\cosas de aprendizaje\\cosas  uni\\servidores\\Videojuego_servidores\\videojuego\\Videojuego_Moto\\Library\\PackageCache\\com.unity.render-pipelines.core@89eb3bdcd743\\Runtime\\RenderPipeline\\RenderPipelineGlobalSettingsUtils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.core@89eb3bdcd743\\Runtime\\RenderPipeline\\RenderPipelineGlobalSettingsUtils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1F2C931-6C09-4F05-0395-7890A45CC39A}|Assembly-CSharp.csproj|c:\\users\\iguit\\onedrive\\documents\\cosas de aprendizaje\\cosas  uni\\servidores\\videojuego_servidores\\videojuego\\videojuego_moto\\assets\\1_scripts\\movimiento_personaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1F2C931-6C09-4F05-0395-7890A45CC39A}|Assembly-CSharp.csproj|solutionrelative:assets\\1_scripts\\movimiento_personaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RenderPipelineGlobalSettingsUtils.cs",
-              "DocumentMoniker": "C:\\Users\\iguit\\OneDrive\\Documents\\cosas de aprendizaje\\cosas  uni\\servidores\\Videojuego_servidores\\videojuego\\Videojuego_Moto\\Library\\PackageCache\\com.unity.render-pipelines.core@89eb3bdcd743\\Runtime\\RenderPipeline\\RenderPipelineGlobalSettingsUtils.cs",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.core@89eb3bdcd743\\Runtime\\RenderPipeline\\RenderPipelineGlobalSettingsUtils.cs",
-              "ToolTip": "C:\\Users\\iguit\\OneDrive\\Documents\\cosas de aprendizaje\\cosas  uni\\servidores\\Videojuego_servidores\\videojuego\\Videojuego_Moto\\Library\\PackageCache\\com.unity.render-pipelines.core@89eb3bdcd743\\Runtime\\RenderPipeline\\RenderPipelineGlobalSettingsUtils.cs",
-              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.core@89eb3bdcd743\\Runtime\\RenderPipeline\\RenderPipelineGlobalSettingsUtils.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI0AAAAFAAAAAAAAAA==",
+              "Title": "movimiento_personaje.cs",
+              "DocumentMoniker": "C:\\Users\\iguit\\OneDrive\\Documents\\cosas de aprendizaje\\cosas  uni\\servidores\\Videojuego_servidores\\videojuego\\Videojuego_Moto\\Assets\\1_Scripts\\movimiento_personaje.cs",
+              "RelativeDocumentMoniker": "Assets\\1_Scripts\\movimiento_personaje.cs",
+              "ToolTip": "C:\\Users\\iguit\\OneDrive\\Documents\\cosas de aprendizaje\\cosas  uni\\servidores\\Videojuego_servidores\\videojuego\\Videojuego_Moto\\Assets\\1_Scripts\\movimiento_personaje.cs",
+              "RelativeToolTip": "Assets\\1_Scripts\\movimiento_personaje.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwB4AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T15:29:55.906Z",
+              "WhenOpened": "2025-02-21T15:49:30.636Z",
               "EditorCaption": ""
             }
           ]
